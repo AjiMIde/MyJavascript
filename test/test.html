@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+</head>
+<body>
+  <li id="li-0">0</li>
+  <li id="li-1">1</li>
+  <li id="li-2">2</li>
+</body>
+<script>
+
+var httpReq = (function () {
+  var sending = false
+
+  var send = () => {
+    sending = true
+  }
+
+  var getStatus = () => {
+    console.log('Sending status: ' + sending)
+  }
+  return {
+    doSend: send,
+    getStatus: getStatus
+  }
+})()
+
+var httReq1 = httpReq
+var httReq2 = httpReq
+
+httReq2.getStatus()
+
+httReq1.doSend()
+
+httReq2.getStatus()
+
+
+
+
+
+</script>
+</html>
