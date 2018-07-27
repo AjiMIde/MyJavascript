@@ -8,13 +8,19 @@
   * [Object Call & Apply](./object/2.Object-call-apply.md)
   * [Object 方法使用](./object/3.Object-methods.md)
   
-* 函数定义与使用  
+* 函数定义与使用
   * [函数参数、参数对象、 rest 使用方法](./function/0.Arguments-&-Reset.md)
   * [解析器与函数的类型](./function/1.Parser-&-Declaration-of-function.md)
   * [IIFE 立即运行的函数](./function/2.IIFE-function.md)
   
-* 中级概念  
+* Asyn 异步  
+  * [0. 回调](./Asyn/0.callback.md)
+  * [1. 生成器](./Asyn/1.generator.md)
+  * [2. worker](./Asyn/2.worker.md)
+  
+* 中级概念
   * [闭包](./Intermediate/0.Closure.md)
+  * [类型转换：强转](./Intermediate/1.transform.md)
   
 * 其他
   * [document.selection 选择对象操作](./Others/0.Selection.md)
