@@ -29,8 +29,8 @@
   * [document.execCommand](./Others/2.document.execCommand.md)
 
 * 开发规范
-  * [1.0 读前须知](./Spec/1.0%20读前须知.md)
-  * [2.0 开发环境](./Spec/2.0%20开发环境.md)
+  * [1.0 读前须知](./Spec/1.0 读前须知.md)
+  * [2.0 开发环境](./Spec/2.0 开发环境.md)
   * [3.0 规范](./Spec/3.0%20规范.md)
     * [3.1 风格](./Spec/3.1%20风格.md)
     * [3.2 命名](./Spec/3.2%20命名.md)
