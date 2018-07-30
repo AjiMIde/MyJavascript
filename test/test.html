@@ -12,34 +12,21 @@
 </body>
 <script>
 
-var httpReq = (function () {
-  var sending = false
 
-  var send = () => {
-    sending = true
+var sq = function* (val) {
+  let num = val || 2
+  let step = 0
+  while (true) {
+    let current = num * step++
+    yield current
   }
+}
 
-  var getStatus = () => {
-    console.log('Sending status: ' + sending)
-  }
-  return {
-    doSend: send,
-    getStatus: getStatus
-  }
-})()
+sqq = sq(20)
 
-var httReq1 = httpReq
-var httReq2 = httpReq
-
-httReq2.getStatus()
-
-httReq1.doSend()
-
-httReq2.getStatus()
-
-
-
-
+console.log(sqq.next().value) // 0
+console.log(sqq.next().value) // 20
+console.log(sqq.next().value) // 40
 
 </script>
 </html>

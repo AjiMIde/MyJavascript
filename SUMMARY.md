@@ -21,11 +21,23 @@
 * 中级概念
   * [闭包](./Intermediate/0.Closure.md)
   * [类型转换：强转](./Intermediate/1.transform.md)
+  * [Some thing](./Intermediate/2.Something.md)
   
 * 其他
   * [document.selection 选择对象操作](./Others/0.Selection.md)
   * [JavaScript 实现 Copy 功能](./Others/1.Js-to-Copy.md)
   * [document.execCommand](./Others/2.document.execCommand.md)
 
-
+* 开发规范
+  * [1.0 读前须知](./Spec/1.0%20读前须知.md)
+  * [2.0 开发环境](./Spec/2.0%20开发环境.md)
+  * [3.0 规范](./Spec/3.0%20规范.md)
+    * [3.1 风格](./Spec/3.1%20风格.md)
+    * [3.2 命名](./Spec/3.2%20命名.md)
+    * [3.3 注释](./Spec/3.3%20注释.md)
+    * [3.4 类型](./Spec/3.4%20类型.md)
+    * [3.5 条件与循环](./Spec/3.5%20条件与循环.md)
+  * [4.0 避免雷区](./Spec/4.0%20避免雷区.md)
+  * [5.0 编码技巧规范](./Spec/5.0%20编码技巧规范.md)
+  * [6.0 上线](./Spec/6.0%20上线.md)
 
