@@ -23,6 +23,9 @@
   * [类型转换：强转](./Intermediate/1.transform.md)
   * [Some thing](./Intermediate/2.Something.md)
   
+* Chrome 相关开发  
+  * [Chrome Notification桌面通知](./Chrome/0.Chrome-Notification.md)
+  
 * 其他
   * [document.selection 选择对象操作](./Others/0.Selection.md)
   * [JavaScript 实现 Copy 功能](./Others/1.Js-to-Copy.md)
