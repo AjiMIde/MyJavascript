@@ -17,6 +17,9 @@
   * [解析器与函数的类型](./function/1.Parser-&-Declaration-of-function.md)
   * [IIFE 立即运行的函数](./function/2.IIFE-function.md)
   
+* ES67  
+  * [Class定义与使用](./ES67/0.Class.md)
+  
 * 中级概念
   * [闭包](./Intermediate/0.Closure.md)
   * [类型转换：强转](./Intermediate/1.transform.md)
