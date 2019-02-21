@@ -30,6 +30,9 @@
   * [Object 对象原型](./object/1.Object-prototype.md)
   * [Object Call & Apply](./object/2.Object-call-apply.md)
   * [Object 方法使用](./object/3.Object-methods.md)
+* [Number 使用]  
+  * [数字：判断整数](./Number/0.judgement-integer.md)
+  * [数字：取整ceil/floor/round/round及取随机数](./Number/1.ceil-floor-round-Get-random.md)
   
 * 其他
   * [document.selection 选择对象操作](./Others/0.Selection.md)
