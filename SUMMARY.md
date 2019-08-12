@@ -30,14 +30,16 @@
   * [Object 对象原型](./object/1.Object-prototype.md)
   * [Object Call & Apply](./object/2.Object-call-apply.md)
   * [Object 方法使用](./object/3.Object-methods.md)
+  
 * [Number 使用]  
   * [数字：判断整数](./Number/0.judgement-integer.md)
   * [数字：取整ceil/floor/round/round及取随机数](./Number/1.ceil-floor-round-Get-random.md)
   
 * 其他
-  * [document.selection 选择对象操作](./Others/0.Selection.md)
-  * [JavaScript 实现 Copy 功能](./Others/1.Js-to-Copy.md)
-  * [document.execCommand](./Others/2.document.execCommand.md)
+  * [0. document.selection 选择对象操作](./Others/0.Selection.md)
+  * [1. JavaScript 实现 Copy 功能](./Others/1.Js-to-Copy.md)
+  * [2. document.execCommand](./Others/2.document.execCommand.md)
+  * [3. Canvas页面导出为图片](./Others/3.Canvas导出页面为图片.md)
 
 * 开发规范
   * [1.0 读前须知](./Spec/1.0 读前须知.md)
