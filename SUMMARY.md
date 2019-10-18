@@ -30,6 +30,7 @@
   * [Object 对象原型](./object/1.Object-prototype.md)
   * [Object Call & Apply](./object/2.Object-call-apply.md)
   * [Object 方法使用](./object/3.Object-methods.md)
+  * [Object 判断](./object/4.Object-judgement.md)
   
 * [Number 使用]  
   * [数字：判断整数](./Number/0.judgement-integer.md)
