@@ -5,7 +5,10 @@
 * [Blogs]
   * [20200420](Blogs/20200420.md)
   
-* [Concept]
+* [概念Concept]
+  * [Javascript设计模式]
+    * [单例模式](./Concept/JavascriptDesignMode/0.singleton.md)
+    * [观察者模式](./Concept/JavascriptDesignMode/1.Observer.md)
   * [MVC-MVP-MVVM](./Concept/MVC-MVP-MVVM.md)
 
   
