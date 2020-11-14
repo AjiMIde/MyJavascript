@@ -6,13 +6,10 @@
   * [20200420](Blogs/20200420.md)
   
 * [概念Concept]
-  * [Javascript设计模式]
-    * [单例模式](./Concept/JavascriptDesignMode/0.singleton.md)
-    * [观察者模式](./Concept/JavascriptDesignMode/1.Observer.md)
+  * [模块化的概念](./Concept/Module.md)
   * [MVC-MVP-MVVM](./Concept/MVC-MVP-MVVM.md)
 
   
-* [Array](./Array/0.Basic.md)
 
 * Asyn 异步  
   * [0. 回调](./Asyn/0.callback.md)
@@ -22,29 +19,42 @@
 * Chrome 相关开发  
   * [Chrome Notification桌面通知](./Chrome/0.Chrome-Notification.md)
 
-* 函数定义与使用
-  * [函数参数、参数对象、 rest 使用方法](./function/0.Arguments-&-Reset.md)
-  * [解析器与函数的类型](./function/1.Parser-&-Declaration-of-function.md)
-  * [IIFE 立即运行的函数](./function/2.IIFE-function.md)
   
 * ES67  
-  * [Class定义与使用](./ES67/0.Class.md)
+  * [01.Class定义与使用](./ES67/01.class-inherit.md)
+  * [02.set集合使用](./ES67/02.set.md)
+  * [03.ES6>模块化使用](./ES67/03.module-export-import.md)
   
 * 中级概念
   * [闭包](./Intermediate/0.Closure.md)
   * [类型转换：强转](./Intermediate/1.transform.md)
   * [Some thing](./Intermediate/2.Something.md)
+  * [字符串的操作(包含正则)](./Intermediate/4.String.md)
   
-* [Object 对象](./object/_object.md)
-  * [Object 对象创建](./object/0.Object-create.md)
-  * [Object 对象原型](./object/1.Object-prototype.md)
-  * [Object Call & Apply](./object/2.Object-call-apply.md)
-  * [Object 方法使用](./object/3.Object-methods.md)
-  * [Object 判断](./object/4.Object-judgement.md)
   
-* [Number 使用]  
-  * [数字：判断整数](./Number/0.judgement-integer.md)
-  * [数字：取整ceil/floor/round/round及取随机数](./Number/1.ceil-floor-round-Get-random.md)
+  
+* 基础知识  
+    * [Number]
+        * [0.判断整数](Basic/Number/0.judgement-integer.md)
+        * [1.取整ceil/floor/round/round及取随机数](Basic/Number/1.ceil-floor-round-Get-random.md)
+    * [Array]   
+        * [0.Array定义与使用](Basic/Array/0.Basic.md)
+    * [Function]
+        * [0.函数参数、参数对象、 rest 使用方法](Basic/Function/0.Arguments-&-Reset.md)
+        * [1.解析器与函数的类型](Basic/Function/1.Parser-&-Declaration-of-function.md)
+        * [2.IIFE 立即运行的函数](Basic/Function/2.IIFE-function.md)
+        * [3.ES5 Class实现](Basic/Function/3.ES5-Class.md)
+    * [Object 对象](Basic/Object/_object.md)
+        * [Object 对象创建](Basic/Object/0.Object-create.md)
+        * [Object 对象原型](Basic/Object/1.Object-prototype.md)
+        * [Object Call & Apply](Basic/Object/2.Object-call-apply.md)
+        * [Object 方法使用](Basic/Object/3.Object-methods.md)
+        * [Object 判断](Basic/Object/4.Object-judgement.md)
+        
+* [Javascript设计模式]
+    * [单例模式](JavascriptDesignMode/0.Singleton.md)
+    * [观察者模式](JavascriptDesignMode/1.Observer.md)
+    * [回调模式](JavascriptDesignMode/2.Callback.md)
   
 * 其他
   * [0. document.selection 选择对象操作](./Others/0.Selection.md)
