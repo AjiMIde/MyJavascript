@@ -6,11 +6,11 @@
 
 #### CommonJs
 
-* 通常以 `exports/module.exports` 来导出暴露接口；
-* 通常以 `require` 来同步加载其他接口；
+* 通常以 `exports/module.exports` 来导出暴露接口，以`require`来同步加载其他接口；
 * 代表框架：`Node.js`
-* 注意：Npm的包大都基于此规范(亦有支持 ES6 模块的)；
-* 注意：CommonJs 通常只用于服务端的 `Node.js` （同步）而不能用于浏览器（会造成加载的阻塞）
+* 注意：`CommonJs` 通常只用于服务端的 `Node.js` （同步）而不能用于浏览器（会造成加载的阻塞），不过在`webpack`的加持下一样可用；
+* `CommonJs`使用于同步加载模块，这就是为什么`Node.js(服务端)`使用的原因；
+
 ```js
 exports.doStuff = function() {};
 module.exports = someValue;
@@ -26,6 +26,7 @@ require("../file.js");
 * 以 `import` 来加载接口；
 * ES6 模块的设计思想，是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。
 * CommonJS 和 AMD 模块，都只能在运行时确定这些东西。
+
 ```js
 import "jquery";
 
@@ -42,9 +43,8 @@ export default function doStuff() {}
 
 #### AMD Asynchronous Module Definition 
 
-* 以 `define` 来定义接口；
-* 以 `require` 来引用接口；
-* 在声明模块的时候指定所有的依赖 dependencies，并且还要当做形参传到 factory 中；
+* 以 `define` 来定义接口；以 `require` 来引用接口；
+* 在声明模块的时候指定所有的依赖 `dependencies`，并且还要当做形参传到 factory 中；
 * 对于依赖的模块提前执行，依赖前置；
 * 优点：适合在浏览器环境中异步加载模块；
 * 优点：可以并行加载多个模块；
